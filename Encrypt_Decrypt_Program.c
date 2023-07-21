@@ -75,6 +75,7 @@ int main() {
     return 0;
 }
 
+//openFile function definition
 int openFile() {
     FILE *file;
     extern char InputFileName[100];
@@ -94,6 +95,7 @@ int openFile() {
     return 0;
 }
 
+//encryptData function definition
 void encryptData(FILE *inputFile, FILE *outputFile, int shift) {
     char ch;
 
@@ -107,6 +109,7 @@ void encryptData(FILE *inputFile, FILE *outputFile, int shift) {
     }
 }
 
+//decryptData function definition
 void decryptData(FILE *inputFile, FILE *outputFile, int shift) {
     char ch;
 
