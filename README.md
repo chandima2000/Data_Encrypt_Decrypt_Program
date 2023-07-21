@@ -10,3 +10,4 @@ By incorporating these encryption and decryption capabilities, the program empow
 confidential documents, or any data requiring an extra layer of security.
 The program's ease of use, robust encryption techniques, and reliable decryption mechanisms make it an invaluable tool for individuals 
 and organizations seeking to maintain data privacy and maintain confidentiality in an ever-evolving digital landscape.
+For better implementation program is compiled in the GCC compiler.
