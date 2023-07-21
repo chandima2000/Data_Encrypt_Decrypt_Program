@@ -17,7 +17,7 @@ int main() {
 
     printf("\n\n ************* DATA ENCRYPTION/DECRYPTION PROGRAM ***************\n\n\n");
 
-    //Enter E/e for decrypt
+    //Enter E/e for encrypt
     //Enter D/d for decrypt
     printf("\n\n  Do You want to ENCRYPT (E) or DECRYPT (D) a file? \n  Enter E or D : ");
     scanf(" %c", &ch);
