@@ -17,8 +17,8 @@ int main() {
 
     printf("\n\n ************* DATA ENCRYPTION/DECRYPTION PROGRAM ***************\n\n\n");
 
-    //Enter E/e for encrypt
-    //Enter D/d for decrypt
+    //Enter E/e for Encrypt
+    //Enter D/d for Decrypt
     printf("\n\n  Do You want to ENCRYPT (E) or DECRYPT (D) a file? \n  Enter E or D : ");
     scanf(" %c", &ch);
 
@@ -36,8 +36,9 @@ int main() {
         printf("\n\n  Enter the output file name for encryption (encrypt_file.txt)   : ");
         scanf("%s", OutputFileName);
 
-        FILE *inputFile = fopen(InputFileName, "r");
-        FILE *outputFile = fopen(OutputFileName, "w");
+        FILE *inputFile = fopen(InputFileName, "r");  //The buffer area is established for read
+        FILE *outputFile = fopen(OutputFileName, "w");  //The buffer area is established for write
+
 
         // Encryption function call
         encryptData(inputFile, outputFile, shift);
@@ -86,7 +87,8 @@ int openFile() {
     // Check if the file exists
     if (file == NULL) {
         printf("\n\n   File does not exist. Please create the file first.\n");
-        exit(1);
+        //If the file does not exist program will be terminated.
+        exit(1);   
     }
 
     printf("\n\n  File exists and is opened. \n");
