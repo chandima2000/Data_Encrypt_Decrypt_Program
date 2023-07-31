@@ -1,4 +1,4 @@
-# GNU_Utility
+# Data Encryption Decryption Utility Program
 The program is a powerful data encryption and decryption utility designed to provide users with a seamless and secure method for safeguarding sensitive information.
 Implemented in C, the program utilizes the Caesar Cipher encryption technique, allowing users to encrypt text files with a customizable shift value to obfuscate the content effectively.
 The program's intuitive user interface prompts users to choose between encryption and decryption operations, simplifying the encryption process.
